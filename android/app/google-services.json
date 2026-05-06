@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031670738306",
+    "project_id": "agroly-9eb28",
+    "storage_bucket": "agroly-9eb28.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031670738306:android:3b10226ae28c407af9f39b",
+        "android_client_info": {
+          "package_name": "com.example.agroly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu_0Gb85zcHG_TWt6dIbXXKmeguoEJ5ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
