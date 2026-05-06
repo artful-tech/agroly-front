@@ -16,7 +16,7 @@ class _MainPageState extends State<MainPage> {
     return const SafeArea(
       child: Scaffold(
         appBar: AppBarWidget(),
-        body: RouterOutlet(),
+        body: RouterOutlet(), // Aqui é onde a rota será renderizada
         bottomNavigationBar: NavigationWidget(),
       ),
     );

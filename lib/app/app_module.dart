@@ -1,4 +1,4 @@
-import 'package:agroly/app/modules/layout/main_module.dart';
+import 'package:agroly/app/modules/layout/layout_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class AppModule extends Module {
@@ -7,9 +7,9 @@ class AppModule extends Module {
 
   @override
   void routes(RouteManager r) {
-    r.module('/main', module: MainModule());
-    r.module('/add', module: MainModule());
+    r.module('/in', module: LayoutModule());
+    r.module('/add', module: LayoutModule());
 
-    r.redirect('/', to: '/main/home');
+    r.redirect('/', to: '/in/home');
   }
 }

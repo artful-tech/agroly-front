@@ -1,5 +1,5 @@
 import 'package:agroly/app/modules/layout/config/navigation_config.dart';
-import 'package:agroly/app/modules/layout/main_module.dart';
+import 'package:agroly/app/modules/layout/layout_module.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
