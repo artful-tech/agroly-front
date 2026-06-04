@@ -99,7 +99,7 @@ const FinanceCollectionSchema = CollectionSchema(
   getId: _financeCollectionGetId,
   getLinks: _financeCollectionGetLinks,
   attach: _financeCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _financeCollectionEstimateSize(

@@ -101,7 +101,7 @@ const PeopleCollectionSchema = CollectionSchema(
   getId: _peopleCollectionGetId,
   getLinks: _peopleCollectionGetLinks,
   attach: _peopleCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _peopleCollectionEstimateSize(

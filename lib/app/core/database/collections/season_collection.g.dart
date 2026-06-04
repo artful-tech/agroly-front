@@ -125,7 +125,7 @@ const SeasonCollectionSchema = CollectionSchema(
   getId: _seasonCollectionGetId,
   getLinks: _seasonCollectionGetLinks,
   attach: _seasonCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _seasonCollectionEstimateSize(

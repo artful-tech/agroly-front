@@ -102,7 +102,7 @@ const PlotCollectionSchema = CollectionSchema(
   getId: _plotCollectionGetId,
   getLinks: _plotCollectionGetLinks,
   attach: _plotCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _plotCollectionEstimateSize(

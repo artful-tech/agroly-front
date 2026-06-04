@@ -92,7 +92,7 @@ const ManagerCollectionSchema = CollectionSchema(
   getId: _managerCollectionGetId,
   getLinks: _managerCollectionGetLinks,
   attach: _managerCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _managerCollectionEstimateSize(

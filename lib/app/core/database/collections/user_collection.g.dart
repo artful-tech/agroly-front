@@ -99,7 +99,7 @@ const UserCollectionSchema = CollectionSchema(
   getId: _userCollectionGetId,
   getLinks: _userCollectionGetLinks,
   attach: _userCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _userCollectionEstimateSize(

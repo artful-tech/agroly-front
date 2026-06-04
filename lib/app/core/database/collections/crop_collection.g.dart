@@ -93,7 +93,7 @@ const CropCollectionSchema = CollectionSchema(
   getId: _cropCollectionGetId,
   getLinks: _cropCollectionGetLinks,
   attach: _cropCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _cropCollectionEstimateSize(

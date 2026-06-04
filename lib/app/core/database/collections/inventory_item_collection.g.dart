@@ -106,7 +106,7 @@ const InventoryItemCollectionSchema = CollectionSchema(
   getId: _inventoryItemCollectionGetId,
   getLinks: _inventoryItemCollectionGetLinks,
   attach: _inventoryItemCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _inventoryItemCollectionEstimateSize(

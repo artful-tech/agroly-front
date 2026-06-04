@@ -82,7 +82,7 @@ const AddressCollectionSchema = CollectionSchema(
   getId: _addressCollectionGetId,
   getLinks: _addressCollectionGetLinks,
   attach: _addressCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _addressCollectionEstimateSize(

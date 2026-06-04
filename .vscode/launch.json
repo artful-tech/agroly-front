@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Agroly (Dev Mode)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--dart-define",
+        "ENV=dev"
+      ]
+    },
+    {
+      "name": "Agroly (Prod Mode)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--dart-define",
+        "ENV=prod"
+      ]
+    }
+  ]
+}

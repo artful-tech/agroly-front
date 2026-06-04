@@ -112,7 +112,7 @@ const FarmCollectionSchema = CollectionSchema(
   getId: _farmCollectionGetId,
   getLinks: _farmCollectionGetLinks,
   attach: _farmCollectionAttach,
-  version: '3.3.1',
+  version: '3.3.2',
 );
 
 int _farmCollectionEstimateSize(
