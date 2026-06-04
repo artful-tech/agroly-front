@@ -1,5 +1,6 @@
 import 'package:agroly/app/app_module.dart';
 import 'package:agroly/app/app_widget.dart';
+import 'package:agroly/app/core/database/local_database.dart';
 import 'package:agroly/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -15,6 +16,8 @@ void main() async {
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   await dotenv.load(fileName: fileName);
+
+  await LocalDatabase.initialize();
 
   runApp(ModularApp(module: AppModule(), child: const AppWidget()));
 }

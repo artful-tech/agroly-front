@@ -1,7 +1,7 @@
-import 'package:agroly/app/modules/layout/models/menu_model.dart';
+import 'package:agroly/app/shared/models/menu_model.dart';
 import 'package:flutter/material.dart';
 
-class NavigationConfig {
+class NavigationRoutes {
   static const List<MenuItemModel> navItems = [
     MenuItemModel(
       route: '/in/home/',

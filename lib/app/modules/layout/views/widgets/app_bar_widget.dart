@@ -11,7 +11,7 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
       return AppBar(
         backgroundColor: Theme.of(context).colorScheme.primary,
         title: Row(
-          mainAxisAlignment: .spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
               '🚜 AGROFY',

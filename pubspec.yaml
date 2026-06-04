@@ -38,6 +38,12 @@ dependencies:
   flutter_modular: ^6.4.1
   firebase_core: ^4.7.0
   google_fonts: ^8.1.0
+  flutter_native_splash: ^2.4.7
+  path: ^1.9.1
+  uuid: ^4.5.3
+  isar_community: 3.3.1
+  isar_community_flutter_libs: 3.3.1
+  path_provider: ^2.1.5
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +55,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  isar_community_generator: 3.3.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -63,6 +71,17 @@ flutter:
   assets:
     - .env
     - .env.development
+
+flutter_native_splash:
+  color: "#f7f7f7"
+  color_dark: "#232323"
+  image: assets/logo/logo-icon-agroly-enhanced-resized.png
+
+  android_12:
+    color: "#f7f7f7"
+    color_dark: "#232323"
+    image: assets/logo/logo-icon-agroly-enhanced-resized.png
+    # icon_background_color: "#065f46"
 
   # To add assets to your application, add an assets section, like this:
   # assets:

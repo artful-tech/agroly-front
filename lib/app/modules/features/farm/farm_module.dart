@@ -1,4 +1,4 @@
-import 'package:agroly/app/modules/features/farm/views/pages/farm_page.dart';
+import 'package:agroly/app/modules/features/farm/views/page/farm_page.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class FarmModule extends Module {

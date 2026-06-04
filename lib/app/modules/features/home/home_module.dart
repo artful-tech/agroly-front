@@ -1,4 +1,4 @@
-import 'package:agroly/app/modules/features/home/views/pages/home_page.dart';
+import 'package:agroly/app/modules/features/home/views/page/home_page.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class HomeModule extends Module {

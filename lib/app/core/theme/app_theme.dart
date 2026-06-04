@@ -27,6 +27,11 @@ class AppTheme {
       onSurface: _white1,
     ),
     textTheme: GoogleFonts.robotoTextTheme(_textTheme(_green, _black2)),
+    listTileTheme: const ListTileThemeData(
+      textColor: _black,
+      iconColor: _black2,
+      tileColor: _white1,
+    ),
   );
 
   // TEMA DARK
@@ -45,6 +50,11 @@ class AppTheme {
     ),
     // textTheme: _textTheme(_white1, _white2),
     textTheme: GoogleFonts.robotoTextTheme(_textTheme(_white1, _white2)),
+    listTileTheme: const ListTileThemeData(
+      textColor: _white1,
+      iconColor: _white2,
+      tileColor: _black,
+    ),
   );
 
   // Texto compartilhado (ou com cores dinâmicas)

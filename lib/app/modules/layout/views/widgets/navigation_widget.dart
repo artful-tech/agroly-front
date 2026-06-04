@@ -1,4 +1,4 @@
-import 'package:agroly/app/modules/layout/config/navigation_config.dart';
+import 'package:agroly/app/modules/layout/routes/navigation_routes.dart';
 import 'package:agroly/app/modules/layout/layout_module.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -17,7 +17,6 @@ class _NavigationWidgetState extends State<NavigationWidget> {
   void initState() {
     super.initState();
     Modular.to.addListener(_syncRouteToIndex);
-    _syncRouteToIndex();
   }
 
   @override
@@ -29,7 +28,7 @@ class _NavigationWidgetState extends State<NavigationWidget> {
   void _syncRouteToIndex() {
     final currentPath = Modular.to.path;
 
-    final index = NavigationConfig.navItems.indexWhere((item) => currentPath.contains(item.route));
+    final index = NavigationRoutes.navItems.indexWhere((item) => currentPath.contains(item.route));
 
     if (index != -1 && index != _currentIndex) {
       setState(() {
@@ -44,7 +43,7 @@ class _NavigationWidgetState extends State<NavigationWidget> {
 
     isGoingForward = newIndex > _currentIndex;
 
-    Modular.to.navigate(NavigationConfig.navItems[newIndex].route);
+    Modular.to.navigate(NavigationRoutes.navItems[newIndex].route);
   }
 
   @override
@@ -54,7 +53,7 @@ class _NavigationWidgetState extends State<NavigationWidget> {
     return BottomNavigationBar(
       onTap: _onTabTapped,
       currentIndex: _currentIndex,
-      items: NavigationConfig.navItems.map((item) {
+      items: NavigationRoutes.navItems.map((item) {
         return BottomNavigationBarItem(
           icon: Icon(item.icon),
           label: item.label,

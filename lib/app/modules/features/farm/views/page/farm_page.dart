@@ -7,7 +7,7 @@ class FarmPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Center(
       child: Column(
-        mainAxisAlignment: .center,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [Text('Você está na página de fazendas')],
       ),
     );

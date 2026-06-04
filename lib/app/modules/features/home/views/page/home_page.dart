@@ -1,4 +1,4 @@
-import 'package:agroly/app/modules/features/home/views/widgets/card_resume.dart';
+import 'package:agroly/app/modules/features/home/views/widget/card_resume.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
